@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'React'
 
   s.subspec 'Core' do |ss|
-    ss.source_files = 'ios/*.{h,m}'
+    ss.source_files = 'ios/**/*.{h,m,swift}'
     ss.public_header_files = ['ios/RCT3DModelView.h']
   end
 
